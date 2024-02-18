@@ -1,0 +1,110 @@
+<html>
+<head>
+	<title>Html Form</title>
+	<style>
+		body{
+			background:#6495ED;
+		}
+		li{
+			font-size:35px ;
+			color: red;
+		}
+		.Black{
+			color:greenyellow;
+			font-size: 40px;
+		}
+		#id-selector{
+			font-size: 40px;
+			color:green;
+		}
+		.heading{
+			font-size: 40px;
+			color:red;
+			text-align: center;
+			text-decoration: underline;
+
+		}
+	</style>
+
+</head>
+<body>
+	<h1 class="heading">From Learning</h1>
+	<form action="register.jsp" method="post">
+		<br>
+
+		<table>
+			<tr>
+				<td>Enter Name:</td>
+				<td><input type="text" placeholder="Enter here" name="user_name"></td>
+			</tr>
+			<tr>
+				<td>Enter password:</td>
+				<td><input type="password" placeholder="Enter here" name="dob"></td>
+			</tr>
+			<tr>
+				<td>Select DOB:</td>
+				<td><Input type="date" name="dob":</td>
+			</tr>
+			<tr>
+				<td>
+					Select Gender
+					<br>
+				</td>
+				<td>
+					<br>
+					Male <input type="radio" name="gender">
+					<br>
+					Female<input type="radio" name="gender">
+				</td>
+			</tr>
+			<tr>
+				<td>select courses</td>
+				<td>
+					<select name="courses"id=" "size="4"multiple>
+						<option value="Java">Java Programming</option>
+						<option value="Php">Php Programming</option>
+						<option value="Python">Python Programming</option>
+						<option value="Android">Android Programming</option>
+						<option value="Data Science">Python Programming</option>
+
+						
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td> Enter Address</td>
+				<td>
+				 <textarea>
+				 </textarea>
+				</td>
+			</tr>
+			<td style="text-align: right;"></td>
+			<td><input type="checkbox"</td>
+			<td>Accept terms and conditions</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td> 
+				<input type="submit">
+				<input type="reset">
+			</td>
+
+		</table>
+	</form>
+	<br>
+	<hr>
+	<h1>Selector...</h1>
+	<ul>
+		<li>Tag Selector</li>
+		<li>Class Selector</li>
+		<li class="Black">mukesh</li>
+		<li class="Black">Kumar</li>
+		<li>Tripathi</li>
+		<li>Blue color</li>
+		<li id="id-selector">Id Selector</li>
+	</ul>
+
+
+
+</body>
+</html>
